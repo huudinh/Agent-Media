@@ -91,6 +91,16 @@ có bao nhiêu nhân vật, bao nhiêu format, bao nhiêu hook trong Tri thức.
 
 Đúng thì Agent trả lời: Media Content Producer · dịch vụ Giảm béo đa khoa · 4 mode SCRIPT/BATCH/CALENDAR/HOOK · 5 nhân vật (NV1–NV5) · 17 format (F01–F17) · 86 hook (H01–H86).
 
+### Đường dự phòng — upload 1 file thay cho 6 file
+
+Nền tảng chặn số file (**Gemini Gems trần 10 file**) hoặc upload nhiều file một lượt bị lỗi thì dùng bản gộp [`goi/GOP-tri-thuc.md`](goi/GOP-tri-thuc.md) (110 KB) thay cho cả **6 file** `knowledge/`.
+
+Nội dung **giống hệt bản rời** — mỗi phần mở đầu bằng dòng `===== tên file =====` nên Agent vẫn đọc đúng từng module, kể cả `decisions.md`.
+
+> ⚠ **Đánh đổi:** dùng bản gộp thì **mất khả năng thay riêng một module** — sửa `decisions.md` là phải sinh lại và upload lại cả bản gộp. **Bản rời vẫn là đường chính.**
+>
+> Sinh lại sau khi sửa tri thức: `python tools/gop-tham-khao.py`. ⛔ Không sửa tay file trong `goi/`.
+
 ---
 
 ## Cấu trúc repo
@@ -109,6 +119,9 @@ knowledge/
 │                                   · KPI 3 tầng · checklist pháp lý 12 điểm
 └── decisions.md                    Sổ quyết định DP01–DP10 — nơi con người ký
 documents/                          Tài liệu nguồn (workbook 12 sheet · docx · link)
+goi/GOP-tri-thuc.md                 Bản gộp 6 file knowledge — đường dự phòng khi
+                                    chạm trần số file. Sinh bằng tools/gop-tham-khao.py
+tools/gop-tham-khao.py              Sinh lại bản gộp sau khi sửa knowledge/
 ```
 
 ---
