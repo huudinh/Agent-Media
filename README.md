@@ -8,6 +8,16 @@
 
 ---
 
+## 📘 Hướng dẫn sử dụng
+
+> ### → **[Mở trang hướng dẫn](https://claude.ai/artifact/FTJqHkmCtbR2LWCVRDH1nc)**
+>
+> Nút Copy sẵn cho bộ não và 6 file tri thức · 13 prompt theo 4 mode + 2 câu lệnh điều khiển sổ quyết định · smoke test 8 câu · ba cơ chế giữ quyền chọn ở phía người.
+>
+> Trang sinh thẳng từ nội dung repo bằng `python tools/trang-huong-dan.py`, nên **nút Copy luôn khớp file nguồn**.
+
+**Người mới bắt đầu từ trang đó, không phải từ đây.** Repo này là phần file để cài vào Project/GPT/Gem — trang hướng dẫn nói *khi nào dùng cái gì*.
+
 ## Đây là một khung, không phải người ra quyết định
 
 **Agent soạn và trình. Con người chọn và ký.** Đây là điều khoản cao nhất của hệ thống ([`SYSTEM-PROMPT.md`](SYSTEM-PROMPT.md) §19) — nó thắng mọi quy tắc khác khi có xung đột.
