@@ -569,7 +569,7 @@ Những mục dưới đây là lỗi rõ ràng, chỉ có một cách đúng. *
 Thương hiệu: Phòng khám Giảm béo Đa khoa — hệ sinh thái Kangnam (HCI Group)
 Kênh: TikTok + Reels (short-form) · Facebook Page/Group
 Sản lượng: **90 video/tháng — 270 video/90 ngày** (3 bài/ngày, khung 07:00 · 12:15 · 20:00)
-Nguồn: Kế hoạch sản xuất Trust Content v1.0 — 21/08/2026 · Nguyễn Bá Uy
+Nguồn: Kế hoạch sản xuất Trust Content v1.0 — 21/08/2026 · Khối Media (nội bộ)
 
 ---
 
